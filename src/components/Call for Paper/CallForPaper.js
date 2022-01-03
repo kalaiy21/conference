@@ -8,7 +8,7 @@ function CallForPaper() {
     const Contents1 = ["Robot Design","Mobile Industrial Robots","Multi Robot Systems","Mechatronics and Robotics","Rescue Robots","Robot Intelligence","Medical Robotics","Cloud Robotics","Cognitive Robotics","Tele Robotics","Underwater Robotics","Soft Robotics","Micro Robots","Field and Service Robots","Drone Technology"]
     const Contents2 = ["PLC and Microcontrollers","Automation Applications","Fluid Power Technology","Advanced Process Control","Intelligent Automation","Additive Manufacturing","Stochastic Control","Stochastic Control","Advanced Control Algorithms","Sensor Technology","Artificial Intelligence","Internet of Things","Intelligent Systems & Algorithm","Machine Learning","Big Data and Data Analytics"]
     return(
-        <div className="pt-[3rem]">
+        <div>
             <Heading />
             <div>
                 <Title title="Call for Paper"/>
