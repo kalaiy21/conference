@@ -1,10 +1,10 @@
 import React from "react";
-
-
+import Committe from "./Committee/Committee";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">hiii</h1>
+    <Committe/>
   );
 }
 
