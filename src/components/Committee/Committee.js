@@ -1,3 +1,5 @@
+import Heading from "../Heading";
+import Title from "../Title";
 import CommitteeContent from "./CommitteeContent";
 
 const Committe = () => {
@@ -9,10 +11,15 @@ const Committe = () => {
 
     return (
         <div>
-            <CommitteeContent Title = {'Advisory Committee'} Members = {AdvisoryMembers}/>
-            <CommitteeContent Title = {'Convener'} Members = {Convener}/>
-            <CommitteeContent Title = {'Technical Committee'} Members = {TechnicalCommittee}/>
-            <CommitteeContent Title = {'International Advisory Board Members'} Members = {InternationalAdvisory}/>
+            <Heading />
+            <Title title="Committee"/>
+            <div className="mt-[3rem]">
+                <CommitteeContent Title = {'Advisory Committee'} Members = {AdvisoryMembers}/>
+                <CommitteeContent Title = {'Convener'} Members = {Convener}/>
+                <CommitteeContent Title = {'Technical Committee'} Members = {TechnicalCommittee}/>
+                <CommitteeContent Title = {'International Advisory Board Members'} Members = {InternationalAdvisory}/>
+            </div>
+            
         </div>
     );
 

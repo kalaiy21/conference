@@ -1,3 +1,6 @@
+import Heading from "../Heading";
+import Title from "../Title";
+
 const Member = (props) => {
     return <li className="p-3">{ props.person }</li>;
 }
@@ -15,9 +18,13 @@ const Contact = () => {
 
     return(
 
-        <div className="w-5/6 float-right flex flex-col h-screen bg-[#FFFBFB] items-center">
-
-            <div className="flex">
+        <div className="flex flex-col h-screen bg-[#FFFBFB] items-center">
+            <Heading />
+            <Title title="Contact"/>
+            <div className="mt-[2rem]">
+                <h1>Organizing Secretary</h1>
+            </div>
+            <div className="flex mt-[2rem]">
                 <div>
                     <ul className="p-3 mx-12">
                         {contacts.map((contact) => <Member person={contact} />)}

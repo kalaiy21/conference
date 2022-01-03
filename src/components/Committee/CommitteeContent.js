@@ -8,7 +8,7 @@ const CommitteeContent = (props) => {
 
     return (
 
-        <div className="w-5/6 float-right bg-[#FFFBFB]">      
+        <div className="bg-[#FFFBFB]">      
 
             <h1 className="underline underline-offset-8 font-bold p-5 mx-10">{props.Title}</h1>
 

@@ -1,12 +1,15 @@
 import React from "react";
-import Committe from "./Committee/Committee";
-import Contact from "./Contact/Contact";
-import CallForPaper from "./CallForPaper";
+import Navbar from './Navbar';
+import Content from './Content';
+
 
 
 function App() {
   return (
-    
+    <div>
+      <Navbar />
+      <Content />
+    </div>
   );
 }
 
