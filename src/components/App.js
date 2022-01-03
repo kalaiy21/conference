@@ -1,10 +1,10 @@
 import React from "react";
-
+import CallForPaper from "./CallForPaper";
 
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">hiii</h1>
+    <CallForPaper />
   );
 }
 
