@@ -1,10 +1,15 @@
 import React from "react";
-
+import Navbar from './Navbar';
+import Content from './Content';
 
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">hiii</h1>
+    <div>
+      <Navbar />
+      <Content />
+    </div>
+    
   );
 }
 
