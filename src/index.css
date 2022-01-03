@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Heading{
+    width: 45rem;
+    margin-bottom: 4rem;
+}
+
+hr{
+    border: 2px solid black;
+}

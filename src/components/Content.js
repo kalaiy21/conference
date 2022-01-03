@@ -1,9 +1,10 @@
-import AboutConference from "./AboutConference"
-import AboutSkcet from "./AboutSkcet";
+import AboutConference from "./About/AboutConference"
+import AboutSkcet from "./About/AboutSkcet";
+import CallForPaper from "./Call for Paper/CallForPaper";
 
 function Content(){
     return(
-        <div className="p-[3rem] w-[85%] float-right">
+        <div className="w-[85%] float-right">
             <AboutSkcet />
         </div>
     );
