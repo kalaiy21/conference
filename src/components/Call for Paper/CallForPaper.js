@@ -9,7 +9,7 @@ function CallForPaper() {
     const Contents2 = ["PLC and Microcontrollers","Automation Applications","Fluid Power Technology","Advanced Process Control","Intelligent Automation","Additive Manufacturing","Stochastic Control","Stochastic Control","Advanced Control Algorithms","Sensor Technology","Artificial Intelligence","Internet of Things","Intelligent Systems & Algorithm","Machine Learning","Big Data and Data Analytics"]
     const dates = ["Conference date: 21.4.2022 & 22.4.2022","Paper submission: 11.02.2022","Acceptance date: 25.02.2022","Camera ready paper: 11.03.2022","Registration last date: 31.03.2022"]
     return(
-        <div>
+        <div className="scrollbar-hide">
             <Heading />
             <div>
                 <Title title="Call for Paper"/>
