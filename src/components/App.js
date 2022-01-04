@@ -6,7 +6,7 @@ import Content from './Content';
 
 function App() {
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
       <Content />
     </div>

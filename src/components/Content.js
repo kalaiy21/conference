@@ -7,7 +7,7 @@ import Contact from "./Contact/Contact";
 function Content(){
     return(
         <div className="w-[85%] float-right">
-            <Contact />
+            <CallForPaper />
         </div>
     );
 }
