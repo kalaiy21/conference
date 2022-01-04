@@ -2,7 +2,7 @@ import React from "react";
 
 function Heading() {
     return(
-        <div className="flex justify-center mt-[3rem]">
+        <div className="flex justify-center mt-[3rem] bg-[#FFFBFB]">
             <h1 className="text-center text-3xl Heading">International Conference on innovations in Robotics, Intelligent Automation and Control</h1>
         </div>
     );
