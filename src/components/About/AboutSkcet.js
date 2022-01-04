@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "../Title";
-import Heading from "../Heading";
+import Title from "../General/Title";
+import Heading from "../General/Heading";
 
 function AboutSkcet(){
     const content1 = "Sri Krishna College of Engineering and Technology is an autonomous Institution , accredited by NAAC with A Grade (3.42 out of 4 Scale). The Institution offers 9 UG Programmes, 9 PG Programmes and 1 Integrated Programme. Seven of its UG Programmes are accredited by the NBA. SKCET provides an exciting academic environment with well qualified and dedicated faculty members to inspire and nurture the student fraternity. The Institution is ranked 83 rd among engineering colleges in India by the MHRD- National Institution Ranking Framework 2020 and 2 nd among private self-financing Institutions in ARIIA 2020 rankings. SKCET has also secured second rank among technical colleges in all India Swachh campus awards 2019. SKCET has also secured the 2 nd runner-up place in AICTE- Lilavati award under the theme Sanitation and Hygiene." 

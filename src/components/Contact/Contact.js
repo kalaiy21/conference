@@ -1,18 +1,19 @@
-import Heading from "../Heading";
-import Title from "../Title";
+import Heading from "../General/Heading";
+import Title from "../General/Title";
+import { MailIcon } from '@heroicons/react/solid';
 
 const Member = (props) => {
     return <li className="p-3">{ props.person }</li>;
 }
 
 const Number = (props) => {
-    return <li className="p-3">{ props.person }</li>;
+    return <li className="p-3" key={props.person}>{ props.person }</li>;
 }
 
 const Contact = () => {
 
     const contacts = ['Dr. N. A. Natraj, Asso. Prof./Mechatronics', 'Mrs. K. Ananthi, Asst. Prof./ Mechatronics', 'Mr. P. M. Arunkumar, Asst. Prof./ Mechatronics', 'Mr. S. Madhankumar, Asst. Prof./ Mechatronics']
-    const numbers = ['+91 1234567890', '+91 1234567890', '+91 1234567890', '+91 1234567890']
+    const numbers = ['+91 9566055736', '+91 9566587682', '+91 9750135213', '+91 8344483282']
 
     return(
 
@@ -25,17 +26,20 @@ const Contact = () => {
             <div className="flex mt-[2rem]">
                 <div>
                     <ul className="p-3 mx-12">
-                        {contacts.map((contact) => <Member person={contact} />)}
+                        {contacts.map((contact) => <Member person={contact} key={contact}/>)}
                     </ul>
                 </div>
                 <div>
                     <ul className="p-3 mx-12">
-                        {numbers.map((number) => <Number person={number} />)}
+                        {numbers.map((number) => <Number person={number} key={number}/>)}
                     </ul>
                 </div>
             </div>
-
-            <h2 className="p-3 mt-10 items-center">Gmail - madhankumar@gmail.com</h2>
+            <div className="mt-10 flex items items-center justify-center">
+                <MailIcon className="w-5 h-5 mr-2"/>
+                <h2 className="pb-1">madhankumars@skcet.ac.in</h2>
+            </div>
+            
 
         </div>
 
