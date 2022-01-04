@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Content from "./Content";
+import Navbar from "./General/Navbar";
+import Content from "./General/Content";
 import { useState } from "react";
 
 function App() {

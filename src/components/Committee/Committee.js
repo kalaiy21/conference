@@ -1,5 +1,5 @@
-import Heading from "../Heading";
-import Title from "../Title";
+import Heading from "../General/Heading";
+import Title from "../General/Title";
 import CommitteeContent from "./CommitteeContent";
 
 const Committe = () => {
