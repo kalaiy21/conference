@@ -4,6 +4,7 @@ import CallForPaper from "./Call for Paper/CallForPaper";
 import Committe from "./Committee/Committee";
 import Contact from "./Contact/Contact";
 
+
 function Content(props){
 
     const tab = props.currentTab;
@@ -48,6 +49,7 @@ function Content(props){
             </div>
         );
     }
+
 }
 
 export default Content;
