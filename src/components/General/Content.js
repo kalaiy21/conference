@@ -10,6 +10,9 @@ import Registration from "../Registration/Registration";
 import Dates from "../Dates/Dates";
 import Downloads from "../Downloads/Downloads";
 
+//Hari
+import Venue from "../Venue/Venue";
+
 function Content(props){
 
     const tab = props.currentTab;
@@ -102,6 +105,15 @@ function Content(props){
             </div>
         );
     }
+      //Hari
+      else if(tab === "Venue")
+      {
+          return(
+              <div className={pagestyle}>
+                  <Venue />
+              </div>
+            );
+      }
 
 }
 
