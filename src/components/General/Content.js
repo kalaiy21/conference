@@ -13,7 +13,7 @@ import Downloads from "../Downloads/Downloads";
 function Content(props){
 
     const tab = props.currentTab;
-    const pagestyle = "w-[85%] float-right bg-[#FFFBFB]"
+    const pagestyle = "w-[85%] float-right bg-[#FFFBFB]  font-Open_Sans font-medium"
     if(tab === "Home")
     {
         return(

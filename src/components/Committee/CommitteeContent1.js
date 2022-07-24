@@ -5,11 +5,11 @@ function CommitteeContent1(props) {
 
         <div className="bg-[#FFFBFB]">      
 
-            <h1 className="underline underline-offset-8 font-semibold p-5 mx-10 text-[1.2rem]">{props.Title}</h1>
+            <h1 className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">{props.Title}</h1>
             
-            <p className="flex flex-col px-[5rem]">
-                <span> <b>{props.Name},</b></span>
-                <span><b>{props.Name1}</b></span>
+            <p className="flex flex-col px-[5rem] leading-[1.9rem] font-normal">
+                <span className="font-semibold"> {props.Name},</span>
+                <span className="font-semibold"> {props.Name1}</span>
                 <span>{props.Designation},</span>
                 <span>{props.Dept}</span>
                 <span>{props.Organisation},</span>

@@ -13,13 +13,13 @@ function CallForPaper() {
             <Heading />
             <div>
                 <Title title="Call for Paper"/>
-                <p className="text-center text-[1.1rem] mt-3">The contributing papers are invited to the following broad categories</p>
+                <p className="text-center text-[1.1rem] mt-[3rem]">The contributing papers are invited to the following broad categories</p>
             </div>
             <div>
                 <StripTitle title="Innovation in Robotics" />
                 <div className="flex justify-center">
                     <ul className="grid grid-cols-2 gap-x-[18rem] gap-3 list-disc">
-                        {Contents1.map((content1) => <List content={content1} style = "w-[18rem] text-[1.1rem]" key={content1}/>)}
+                        {Contents1.map((content1) => <List content={content1} style = "w-[19rem] text-[1.1rem]" key={content1}/>)}
                     </ul>
                 </div>
             </div>
@@ -27,7 +27,7 @@ function CallForPaper() {
                 <StripTitle title="Intelligent Automation and Control" />
                 <div className="flex justify-center mb-[3rem]">
                     <ul className="grid grid-cols-2 gap-x-[18rem] gap-3 list-disc">
-                        {Contents2.map((content1) => <List content={content1} style = "w-[18rem] text-[1.1rem]" key={content1}/>)}
+                        {Contents2.map((content1) => <List content={content1} style = "w-[20rem] text-[1.1rem]" key={content1}/>)}
                     </ul>
                 </div>
             </div>

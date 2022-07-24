@@ -7,7 +7,7 @@ const Submission = () => {
       <div>
           <Heading />
           <Title title="Submission"/>
-          <div className="mt-[3rem] px-[5rem]">
+          <div className="mt-[3rem] px-[5rem] leading-[2rem]">
              <p>
                 <b><span>Instructions to Authors</span></b>
                 <p>Authors are requested to send their manuscript (in doc, or .pdf) to the Conference Emailid: <a className="text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a> or submit by clicking button below.</p>
@@ -35,7 +35,7 @@ const Submission = () => {
             </p>
 
             <div className="py-[2rem] flex justify-center">
-                <a className="px-[2rem] py-[1rem] bg-sky-500 rounded-xl text-gray-800" href="http://">Submit Manuscript</a>
+                <a className="px-[2rem] py-[1rem] bg-[#206dac] rounded-xl text-white" href="http://">Submit Manuscript</a>
             </div>
 
           </div>

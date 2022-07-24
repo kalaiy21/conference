@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="flex flex-col h-screen bg-[#FFFBFB] items-center">
             <Heading />
             <Title title="Contact"/>
-            <div className="flex mt-[2rem]">
+            <div className="flex mt-[2rem] text-[1.1rem]">
                 <div>
                     <ul className="p-3 mx-12">
                         {contacts.map((contact) => <Member person={contact} key={contact}/>)}
@@ -32,8 +32,8 @@ const Contact = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex items-center justify-center mt-10 items">
-                <MailIcon className="w-5 h-5 mr-2"/>
+            <div className="flex items-center justify-center mt-10 items text-[1.1rem]">
+                <MailIcon className="w-8 h-8 mr-2"/>
                 <a className="pb-1 text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a>
             </div>
             

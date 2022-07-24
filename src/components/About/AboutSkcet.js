@@ -13,8 +13,8 @@ function AboutSkcet(){
         <div className="font-poppins px-[3rem]">
             <Heading />
             <Title title="About SKCET" />
-            <div>
-                <p className="text-justify text-base leading-8 mb-[2rem] mt-[3rem]">{content1}</p>
+            <div className="px-[5.5rem] font-medium">
+                <p className="text-justify text-base leading-[2.4rem] mb-[2rem] mt-[3rem]">{content1}</p>
                 {/* <p className="text-justify text-base leading-8 mb-[2rem]">{content2}</p>
                 <p className="text-justify text-base leading-8 mb-[2rem]">{content3}</p> */}
             </div>
