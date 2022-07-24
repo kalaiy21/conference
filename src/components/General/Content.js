@@ -8,11 +8,11 @@ import Contact from "../Contact/Contact";
 function Content(props){
 
     const tab = props.currentTab;
-
+    const pagestyle = "w-[85%] float-right bg-[#FFFBFB]"
     if(tab === "Home")
     {
         return(
-            <div className="w-[85%] float-right bg-[#FFFBFB] h-screen">
+            <div className={pagestyle+"h-screen"}>
                 <AboutConference />
             </div>
         );
@@ -20,7 +20,7 @@ function Content(props){
     else if(tab === "About SKCET")
     {
         return(
-            <div className="w-[85%] float-right bg-[#FFFBFB]">
+            <div className={pagestyle}>
                 <AboutSkcet />
             </div>
         );
@@ -28,7 +28,7 @@ function Content(props){
     else if(tab === "Call for Paper")
     {
         return(
-            <div className="w-[85%] float-right bg-[#FFFBFB]">
+            <div className={pagestyle}>
                 <CallForPaper />
             </div>
         );
@@ -36,7 +36,7 @@ function Content(props){
     else if(tab === "Committee")
     {
         return(
-            <div className="w-[85%] float-right bg-[#FFFBFB]">
+            <div className={pagestyle}>
                 <Committe />
             </div>
         );
@@ -44,7 +44,15 @@ function Content(props){
     else if(tab === "Contact")
     {
         return(
-            <div className="w-[85%] float-right bg-[#FFFBFB]">
+            <div className={pagestyle}>
+                <Contact />
+            </div>
+        );
+    }
+    else if(tab === "Keynote")
+    {
+        return(
+            <div className={pagestyle}>
                 <Contact />
             </div>
         );

@@ -1,6 +1,7 @@
 import Heading from "../General/Heading";
 import Title from "../General/Title";
 import CommitteeContent from "./CommitteeContent";
+import CommitteeContent1 from "./CommitteeContent1";
 
 const Committe = () => {
 
@@ -12,12 +13,13 @@ const Committe = () => {
     return (
         <div>
             <Heading />
-            <Title title="Committee"/>
-            <div className="mt-[3rem]">
-                <CommitteeContent Title = {'Advisory Committee'} Members = {AdvisoryMembers}/>
-                <CommitteeContent Title = {'Convener'} Members = {Convener}/>
-                <CommitteeContent Title = {'Technical Committee'} Members = {TechnicalCommittee}/>
-                <CommitteeContent Title = {'International Advisory Board Members'} Members = {InternationalAdvisory}/>
+            <Title title="Organizing Committee"/>
+            <div className="mt-[3rem] px-[5rem]">
+               <CommitteeContent1 Title = "Chief Patron" Name="Smt. S. Malarvizhi" Designation="Managing Trustee" Organisation="Sri Krishna Institutions" Location="Coimbatore" />
+               <CommitteeContent1 Title = "Patron" Name="Dr. J. Janet" Designation="Principal" Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
+               <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
+               <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
+            
             </div>
             
         </div>
