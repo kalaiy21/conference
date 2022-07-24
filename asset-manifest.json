@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/conference/static/css/main.4c2a7e54.css",
-    "main.js": "/conference/static/js/main.a1174a50.js",
+    "main.css": "/conference/static/css/main.1e6dd939.css",
+    "main.js": "/conference/static/js/main.a8144da3.js",
     "static/media/bro1.pdf": "/conference/static/media/bro1.72c44c650a28a92538b1.pdf",
     "static/media/skcetLogo.png": "/conference/static/media/skcetLogo.31d2bf13215ad9e10734.png",
     "index.html": "/conference/index.html",
-    "main.4c2a7e54.css.map": "/conference/static/css/main.4c2a7e54.css.map",
-    "main.a1174a50.js.map": "/conference/static/js/main.a1174a50.js.map"
+    "main.1e6dd939.css.map": "/conference/static/css/main.1e6dd939.css.map",
+    "main.a8144da3.js.map": "/conference/static/js/main.a8144da3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2a7e54.css",
-    "static/js/main.a1174a50.js"
+    "static/css/main.1e6dd939.css",
+    "static/js/main.a8144da3.js"
   ]
 }
