@@ -3,7 +3,12 @@ import AboutSkcet from "../About/AboutSkcet";
 import CallForPaper from "../Call for Paper/CallForPaper";
 import Committe from "../Committee/Committee";
 import Contact from "../Contact/Contact";
-
+import Keynote from "../Keynote/Keynote";
+import Submission from "../Submission/Submission";
+import Publication from "../Publication/Publication";
+import Registration from "../Registration/Registration";
+import Dates from "../Dates/Dates";
+import Downloads from "../Downloads/Downloads";
 
 function Content(props){
 
@@ -53,7 +58,47 @@ function Content(props){
     {
         return(
             <div className={pagestyle}>
-                <Contact />
+                <Keynote />
+            </div>
+        );
+    }
+    else if(tab === "Submission")
+    {
+        return(
+            <div className={pagestyle}>
+                <Submission />
+            </div>
+        );
+    }
+    else if(tab === "Publication")
+    {
+        return(
+            <div className={pagestyle}>
+                <Publication />
+            </div>
+        );
+    }
+    else if(tab === "Registration")
+    {
+        return(
+            <div className={pagestyle}>
+                <Registration />
+            </div>
+        );
+    }
+    else if(tab === "Important Dates")
+    {
+        return(
+            <div className={pagestyle}>
+                <Dates />
+            </div>
+        );
+    }
+    else if(tab === "Downloads")
+    {
+        return(
+            <div className={pagestyle}>
+                <Downloads />
             </div>
         );
     }

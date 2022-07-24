@@ -11,7 +11,6 @@ function AboutConference(){
             <Title title="About Conference" />
             <div>
                 <p className="text-justify text-base leading-8 my-[3rem]">{content}</p>
-                <h2>Event Date: 21-22 April 2022</h2>
             </div>
         </div>
     );

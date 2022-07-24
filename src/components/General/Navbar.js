@@ -5,10 +5,10 @@ function navbar(props) {
         props.onTabClicked(event.target.innerText);
     }
 
-    const tabs = ["Home", "About SKCET", "Call for Paper", "Committee", "Keynote", "Submission", "Publication", "Registration", "Downloads", "Venue", "Contact"];
+    const tabs = ["Home", "About SKCET", "Call for Paper", "Committee", "Keynote", "Important Dates", "Submission", "Publication", "Registration", "Downloads", "Venue", "Contact"];
 
     return (
-        <div className="font-poppins bg-[#272727] w-[15%] h-screen flex items-center justify-center fixed top-0 left-0">
+        <div className="font-poppins bg-[#272727] w-[15%] h-screen flex items-center space-y-16 justify-center fixed top-0 left-0">
             <div className="absolute top-10">
                 <img className="h-10 w-15" src={skcetLogo}  alt="logo" />
             </div>
