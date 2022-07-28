@@ -8,12 +8,12 @@ function Venue() {
     "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY, KUNIAMUTHUR, COIMBATORE - 641008 AN AUTONOMOUS INSTITUTION, AFFILIATED TO ANNA UNVERSITY, ACCREDITED BY NAAC WITH ‘A’ GRADE";
 
   return (
-    <div className="flex flex-col px-[3rem] font-poppins">
+    <div className="flex flex-col font-poppins">
       <Heading />
       <Title title="Venue" />
       <br></br>
 
-      <div className="px-[3rem] mb-[3rem]">
+      <div className="px-[6rem] mb-[3rem]">
         <p className="box-border flex flex-col block text-left my-[3rem]">
           <span>SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY, </span>
           <span>KUNIAMUTHUR,</span>
