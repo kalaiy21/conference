@@ -10,9 +10,9 @@ function Venue() {
   return (
     <div className="flex flex-col font-poppins">
       <Heading />
-      <Title title="Venue" />
+      <Title title="Venue (Virtual Event)" />
+      
       <br></br>
-
       <div className="px-[6rem] mb-[3rem]">
         <p className="box-border flex flex-col block text-left my-[3rem]">
           <span>SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY, </span>

@@ -13,6 +13,7 @@ function Speakers(props) {
                 <span>{props.Dept},</span>
                 <span>{props.Organisation},</span>
                 <span>{props.Location}.</span>
+                
             </p>
 
         </div>

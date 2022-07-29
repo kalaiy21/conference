@@ -10,7 +10,7 @@ const Keynote = () => {
             <Title title="Keynote Speakers"/>
             <div className="my-[3rem] px-[5rem]">
                <Speakers Name="Dr. Anand Paul" Designation="Director" Dept="Connected Computing and Media Processing Laboratory" Organisation="Kyungpook National University" Location="South Korea" />
-               <Speakers Name="Mr. Muthiah" Designation="Computation Engineer" Dept="(Automotive)" Organisation="Akka Technologies" Location="Germany" />
+               <Speakers Name="Mr. Muthiah" Designation="Computation Engineer" Dept="(Automotive)" Organisation="Akka Technologies" Location="Germany"/>
 
             </div>
             
