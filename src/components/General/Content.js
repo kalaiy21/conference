@@ -1,5 +1,5 @@
 import AboutConference from "../About/AboutConference"
-import AboutSkcet from "../About/AboutSkcet";
+import AboutSkcet from "../About/Abouts.js";
 import CallForPaper from "../Call for Paper/CallForPaper";
 import Committe from "../Committee/Committee";
 import Contact from "../Contact/Contact";
@@ -10,7 +10,6 @@ import Registration from "../Registration/Registration";
 import Dates from "../Dates/Dates";
 import Downloads from "../Downloads/Downloads";
 
-//Hari
 import Venue from "../Venue/Venue";
 
 function Content(props){
@@ -25,7 +24,7 @@ function Content(props){
             </div>
         );
     }
-    else if(tab === "About SKCET")
+    else if(tab === "About")
     {
         return(
             <div className={pagestyle}>
@@ -105,7 +104,6 @@ function Content(props){
             </div>
         );
     }
-      //Hari
       else if(tab === "Venue")
       {
           return(

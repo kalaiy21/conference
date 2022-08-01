@@ -9,7 +9,7 @@ const Publication = () => {
             <Title title="Publication"/>
             <div className="my-[3rem] px-[5rem] text-center">
               <p className="mb-[1rem]">All registered and presented papers will be published in AIP Conference Proceedings</p>
-              <a className="underline text-sky-500 " href="https://aip.scitation.org/journal/apc">AIP Conference Proceedings</a>
+              <p><a className="underline text-sky-500 " href="https://aip.scitation.org/journal/apc">AIP Conference Proceedings -</a> scopus indexed</p>
             </div>
             
         </div>

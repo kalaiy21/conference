@@ -2,7 +2,8 @@ import Heading from "../General/Heading";
 import Title from "../General/Title";
 import CommitteeContent from "./CommitteeContent";
 import CommitteeContent1 from "./CommitteeContent1";
-
+import Coordinate from "./Co-or";
+import Common from "./Commondetails";
 const Committe = () => {
 
     // const AdvisoryMembers = ['Dr. J. Janet, Principal'];
@@ -18,8 +19,30 @@ const Committe = () => {
                <CommitteeContent1 Title = "Chief Patron" Name="Smt. S. Malarvizhi" Designation="Managing Trustee" Organisation="Sri Krishna Institutions" Location="Coimbatore" />
                <CommitteeContent1 Title = "Patron" Name="Dr. J. Janet" Designation="Principal" Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
-               <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
-            
+               {/* <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" /> */}
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Coorinators</p>
+               <Coordinate Name="Dr. T. A. Selven" Designation="Professor"></Coordinate>
+               <Coordinate Name="Dr. D. Pritima" Designation="Professor"></Coordinate>
+               <Coordinate Name="Dr. V. Narasimharaj" Designation="Associate Professor"></Coordinate>
+               <Coordinate Name="Dr. R. Gopinathan" Designation="Associate Professor"></Coordinate>
+               <Coordinate Name="Dr. S. Balasubramani" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Dr. R. Manikandan" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Dr. G. Veerappan" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Dr. L. Feroz Ali" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Dr. N. Mithran" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Dr. J. Justin Maria Hillary" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Ms. S. Kannaki" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Ms. J. Indirapriyadharshini" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Ms. M. Bhuvaneswari" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Ms. S. Nithya Priya" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Mr. S. Panneerselvam" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Ms. R. Priyadharshini" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Mr. P. M. Arunkumar" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Mr. M. Vigneshwaran" Designation="Assistant Professor"></Coordinate>
+               <Coordinate Name="Mr. T. Vignesh" Designation="Assistant Professor"></Coordinate>
+               <br></br>
+               <Common></Common>
+
             </div>
             
         </div>
@@ -28,3 +51,24 @@ const Committe = () => {
 }
 
 export default Committe;
+
+
+// Dr. T. A. Selvan, Professor
+// Dr. D. Pritima, Professor
+// Dr. V. Narasimharaj, Associate Professor
+// Dr. R. Gopinathan, Associate Professor
+// Dr. S. Balasubramani, Assistant Professor
+// Dr. R. Manikandan, Assistant Professor
+// Dr. G. Veerappan, Assistant Professor
+// Dr. L. Feroz Ali, Assistant Professor
+// Dr. N. Mithran, Assistant Professor
+// Dr. J. Justin Maria Hillary,	Assistant Professor
+// Ms. S. Kannaki, Assistant Professor
+// Ms. J. Indirapriyadharshini, Assistant Professor
+// Ms. M. Bhuvaneswari, Assistant Professor
+// Ms. S. Nithya Priya, Assistant Professor
+// Mr. S. Panneerselvam, Assistant Professor
+// Ms. R. Priyadharshini, Assistant Professor
+// Mr. P. M. Arunkumar, Assistant Professor
+// Mr. M. Vigneshwaran, Assistant Professor
+// Mr. T. Vignesh,	Assistant Professor

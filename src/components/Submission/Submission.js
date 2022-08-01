@@ -35,7 +35,7 @@ const Submission = () => {
             </p>
 
             <div className="py-[2rem] flex justify-center">
-                <a className="px-[2rem] py-[1rem] bg-[#206dac] rounded-xl text-white" href="http://">Submit Manuscript</a>
+                <a className="px-[2rem] py-[1rem] bg-[#206dac] rounded-xl text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSdvGMZ7ia_QrVDq1xZ0ZcD_ObavyRKRhK7bOPicINayOmXspA/viewform" target="_blank">Submit Manuscript</a>
             </div>
 
           </div>
