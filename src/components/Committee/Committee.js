@@ -20,7 +20,7 @@ const Committe = () => {
                <CommitteeContent1 Title = "Patron" Name="Dr. J. Janet" Designation="Principal" Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                {/* <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" /> */}
-               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Coorinators</p>
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Coordinators</p>
                <Coordinate Name="Dr. T. A. Selven" Designation="Professor"></Coordinate>
                <Coordinate Name="Dr. D. Pritima" Designation="Professor"></Coordinate>
                <Coordinate Name="Dr. V. Narasimharaj" Designation="Associate Professor"></Coordinate>
