@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/conference/static/css/main.0d7dbc53.css",
-    "main.js": "/conference/static/js/main.0da53908.js",
+    "main.css": "/conference/static/css/main.1c639e00.css",
+    "main.js": "/conference/static/js/main.5ce992c4.js",
     "static/media/bro1.pdf": "/conference/static/media/bro1.72c44c650a28a92538b1.pdf",
+    "static/media/AIP.docx": "/conference/static/media/AIP.a6db4067fe61581c3f30.docx",
     "static/media/depttop.jpg": "/conference/static/media/depttop.ca4742cd0f78b3f9a153.jpg",
     "static/media/skcetLogo.png": "/conference/static/media/skcetLogo.31d2bf13215ad9e10734.png",
     "static/media/scopus.jpeg": "/conference/static/media/scopus.73884da8574653f9db0f.jpeg",
@@ -10,11 +11,11 @@
     "static/media/Anand_paul.jpeg": "/conference/static/media/Anand_paul.3eda3f35c42f2cec3939.jpeg",
     "static/media/AIP proceedings.jpeg": "/conference/static/media/AIP proceedings.48f19b666c22ca4d0ba7.jpeg",
     "index.html": "/conference/index.html",
-    "main.0d7dbc53.css.map": "/conference/static/css/main.0d7dbc53.css.map",
-    "main.0da53908.js.map": "/conference/static/js/main.0da53908.js.map"
+    "main.1c639e00.css.map": "/conference/static/css/main.1c639e00.css.map",
+    "main.5ce992c4.js.map": "/conference/static/js/main.5ce992c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d7dbc53.css",
-    "static/js/main.0da53908.js"
+    "static/css/main.1c639e00.css",
+    "static/js/main.5ce992c4.js"
   ]
 }
