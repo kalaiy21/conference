@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/conference/static/css/main.8e455b85.css",
-    "main.js": "/conference/static/js/main.e12dc42a.js",
+    "main.css": "/conference/static/css/main.8bb737ba.css",
+    "main.js": "/conference/static/js/main.2d98911b.js",
     "static/media/bro1.pdf": "/conference/static/media/bro1.72c44c650a28a92538b1.pdf",
     "static/media/AIP.docx": "/conference/static/media/AIP.a6db4067fe61581c3f30.docx",
     "static/media/depttop.jpg": "/conference/static/media/depttop.ca4742cd0f78b3f9a153.jpg",
@@ -11,11 +11,11 @@
     "static/media/Anand_paul.jpeg": "/conference/static/media/Anand_paul.3eda3f35c42f2cec3939.jpeg",
     "static/media/AIP proceedings.jpeg": "/conference/static/media/AIP proceedings.48f19b666c22ca4d0ba7.jpeg",
     "index.html": "/conference/index.html",
-    "main.8e455b85.css.map": "/conference/static/css/main.8e455b85.css.map",
-    "main.e12dc42a.js.map": "/conference/static/js/main.e12dc42a.js.map"
+    "main.8bb737ba.css.map": "/conference/static/css/main.8bb737ba.css.map",
+    "main.2d98911b.js.map": "/conference/static/js/main.2d98911b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e455b85.css",
-    "static/js/main.e12dc42a.js"
+    "static/css/main.8bb737ba.css",
+    "static/js/main.2d98911b.js"
   ]
 }
