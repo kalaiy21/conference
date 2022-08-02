@@ -1,6 +1,7 @@
 import Heading from "../General/Heading";
 import Title from "../General/Title";
-import Speakers from "./Speakers";
+import Speaker1 from "./Speakers";
+import Speaker2 from "./Speaker2";
 
 const Keynote = () => {
 
@@ -9,9 +10,8 @@ const Keynote = () => {
             <Heading />
             <Title title="Keynote Speakers"/>
             <div className="my-[3rem] px-[5rem]">
-               <Speakers Name="Dr. Anand Paul" Designation="Director" Dept="Connected Computing and Media Processing Laboratory" Organisation="Kyungpook National University" Location="South Korea" />
-               <Speakers Name="Mr. Muthiah" Designation="Computation Engineer" Dept="(Automotive)" Organisation="Akka Technologies" Location="Germany" />
-
+               <Speaker1/>
+               <Speaker2/>
             </div>
             
         </div>

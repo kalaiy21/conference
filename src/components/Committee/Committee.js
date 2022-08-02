@@ -2,7 +2,8 @@ import Heading from "../General/Heading";
 import Title from "../General/Title";
 import CommitteeContent from "./CommitteeContent";
 import CommitteeContent1 from "./CommitteeContent1";
-
+import Committemem from "./Co-or";
+import Common from "./Commondetails";
 const Committe = () => {
 
     // const AdvisoryMembers = ['Dr. J. Janet, Principal'];
@@ -19,7 +20,29 @@ const Committe = () => {
                <CommitteeContent1 Title = "Patron" Name="Dr. J. Janet" Designation="Principal" Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
-            
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Committee Members</p>
+               <Committemem Name="Dr. T. A. Selvan" Designation="Professor"></Committemem>
+               <Committemem Name="Dr. D. Pritima" Designation="Professor"></Committemem>
+               <Committemem Name="Dr. V. Narasimharaj" Designation="Associate Professor"></Committemem>
+               <Committemem Name="Dr. R. Gopinathan" Designation="Associate Professor"></Committemem>
+               <Committemem Name="Dr. S. Balasubramani" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Dr. R. Manikandan" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Dr. G. Veerappan" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Dr. L. Feroz Ali" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Dr. N. Mithran" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Dr. J. Justin Maria Hillary" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Ms. S. Kannaki" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Ms. J. Indirapriyadharshini" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Ms. M. Bhuvaneswari" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Ms. S. Nithya Priya" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Mr. S. Panneerselvam" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Ms. R. Priyadharshini" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Mr. P. M. Arunkumar" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Mr. M. Vigneshwaran" Designation="Assistant Professor"></Committemem>
+               <Committemem Name="Mr. T. Vignesh" Designation="Assistant Professor"></Committemem>
+               <br></br>
+               <Common></Common>
+
             </div>
             
         </div>
@@ -28,3 +51,24 @@ const Committe = () => {
 }
 
 export default Committe;
+
+
+// Dr. T. A. Selvan, Professor
+// Dr. D. Pritima, Professor
+// Dr. V. Narasimharaj, Associate Professor
+// Dr. R. Gopinathan, Associate Professor
+// Dr. S. Balasubramani, Assistant Professor
+// Dr. R. Manikandan, Assistant Professor
+// Dr. G. Veerappan, Assistant Professor
+// Dr. L. Feroz Ali, Assistant Professor
+// Dr. N. Mithran, Assistant Professor
+// Dr. J. Justin Maria Hillary,	Assistant Professor
+// Ms. S. Kannaki, Assistant Professor
+// Ms. J. Indirapriyadharshini, Assistant Professor
+// Ms. M. Bhuvaneswari, Assistant Professor
+// Ms. S. Nithya Priya, Assistant Professor
+// Mr. S. Panneerselvam, Assistant Professor
+// Ms. R. Priyadharshini, Assistant Professor
+// Mr. P. M. Arunkumar, Assistant Professor
+// Mr. M. Vigneshwaran, Assistant Professor
+// Mr. T. Vignesh,	Assistant Professor

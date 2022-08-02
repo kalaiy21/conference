@@ -12,8 +12,8 @@ const Number = (props) => {
 
 const Contact = () => {
 
-    const contacts = ['Mrs. K. Ananthi, Asst. Prof./ Mechatronics', 'Mr. S. Madhankumar, Asst. Prof./ Mechatronics']
-    const numbers = ['+91 9566587682', '+91 8344483282']
+    const contacts = ['Mrs. K. Ananthi, Asst. Prof./ Mechatronics Engineering', 'Mr. S. Madhankumar, Asst. Prof./ Mechatronics Engineering']
+    const numbers = ['+91 9486091362', '+91 8344483282']
 
     return(
 

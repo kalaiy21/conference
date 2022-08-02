@@ -13,7 +13,7 @@ function CallForPaper() {
             <Heading />
             <div>
                 <Title title="Call for Paper"/>
-                <p className="text-center text-[1.1rem] mt-[3rem]">The contributing papers are invited to the following broad categories</p>
+                <p className="text-center text-[1.1rem] mt-[3rem]">The major topics of the Conference are as follows but not limited to</p>
             </div>
             <div>
                 <StripTitle title="Innovation in Robotics" />
