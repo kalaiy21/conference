@@ -24,10 +24,6 @@ function About(){
                 <p className="text-justify text-base font-medium leading-8 my-[3rem] leading-[2.4rem] ">{dept}</p>
             </div>
 
-            <Title title="About SKCET" />
-            <div className="px-[5.5rem]">
-                <p className="text-justify text-base font-medium leading-8 my-[3rem] leading-[2.4rem] ">{skcet}</p>
-            </div>
         </div>
     );
 }

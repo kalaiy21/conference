@@ -10,7 +10,7 @@ const Submission = () => {
           <div className="mt-[3rem] px-[5rem] leading-[2rem]">
              <p>
                 <b><span>Instructions to Authors</span></b>
-                <p>Authors are requested to send their manuscript (in doc) to the Conference Email id: <a className="text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a> or submit by clicking button below.</p>
+                <p>Authors are requested to send their manuscript (in .doc) to the Conference Email id: <a className="text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a> or submit by clicking button below.</p>
              </p>
 
             <hr className="border-[1px] opacity-40 border-[#9e9e9e] my-[1.5rem]"></hr>
@@ -18,10 +18,10 @@ const Submission = () => {
             <p>
                 Ensure the below points before sending the manuscript.
                 <ul className="list-disc pl-[2rem]">
-                    <li>Subject should be Paper submission to ICIRAC 2022 Conference.</li>
+                    <li>Subject should be Paper submission to ICIRIAC 2022 Conference.</li>
                     <li>Kindly include all authors details with communication email id in the manuscript.</li>
-                    <li>Paper length must be a minimum of 6 pages and a maximum of 8 pages.</li>
-                    <li>Manuscripts with plagiarism less than 20% only will be considered for the review process.</li>
+                    <li>Paper length can be a maximum of 8 pages.</li>
+                    <li>Manuscripts with plagiarism less than 15% only will be considered for the review process.</li>
                     <li>The Manuscript should strictly follow the AIP paper template which is available below:</li>
                 </ul>
             </p>

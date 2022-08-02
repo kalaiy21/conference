@@ -1,6 +1,6 @@
 import react from "react";
 
-function Coordinate(props) {
+function Committemem(props) {
     return (
 
         <div className="bg-[#FFFBFB]">     
@@ -17,6 +17,6 @@ function Coordinate(props) {
     
 }
 
-export default Coordinate;
+export default Committemem;
 
 

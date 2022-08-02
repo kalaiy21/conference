@@ -1,7 +1,7 @@
 import react from "react";
-import anand from '../../Resources/Anand_paul.jpeg';
+import muthiah from '../../Resources/Muthiah.jpeg';
 
-function Speaker1() {
+function Speaker2() {
     return (
 
         <div className="bg-[#FFFBFB]">      
@@ -16,13 +16,13 @@ function Speaker1() {
                 <span>{props.Location}.</span>
                 <img className="w-[400px] h-[400px]"src={props.image}></img> */}
                 <div>
-                    <img className="float-right w-[350px] h-[300px] border-black"src={anand}></img>
-                    <div className="mt-[60px]">
-                        <div className="font-semibold">Dr. Anand Paul,</div>
-                        <div>Director,</div>
-                        <div>Connected Computing and Media Processing Laboratory,</div>
-                        <div>Kyungpook National University,</div>
-                        <div>South Korea.</div>
+                    <img className="float-left w-[350px] h-[300px] border-black"src={muthiah}></img>
+                    <div className="float-right mt-[100px] mr-[60px]">
+                        <div className="font-semibold">Mr. Muthiah,</div>
+                        <div>Computation Engineer,</div>
+                        <div>(Automotive),</div>
+                        <div>Akka Technologies,</div>
+                        <div>Germany.</div>
                     </div>
 
                 </div>
@@ -36,4 +36,4 @@ function Speaker1() {
 
 
 
-export default Speaker1;
+export default Speaker2;

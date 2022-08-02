@@ -16,7 +16,7 @@ const Publication = () => {
                 <img className="w-[500px] h-[170px]"src={Scopus}></img>
               </div>
               <br></br>
-              <p><a className="underline text-sky-500 " href="https://aip.scitation.org/journal/apc">AIP Conference Proceedings -</a> scopus indexed</p>
+              <p><a className="underline text-sky-500 " href="https://aip.scitation.org/journal/apc" target="_blank">AIP Conference Proceedings -</a> Scopus Indexed</p>
             </div>
             
         </div>
