@@ -16,7 +16,7 @@ function Speaker1() {
                 <span>{props.Location}.</span>
                 <img className="w-[400px] h-[400px]"src={props.image}></img> */}
                 <div>
-                    <img className="float-right w-[350px] h-[300px] border-black"src={anand}></img>
+                    <img className="float-right object-cover w-[350px] h-[300px] border-black"src={anand}></img>
                     <div className="mt-[60px]">
                         <div className="font-semibold">Dr. Anand Paul,</div>
                         <div>Director,</div>

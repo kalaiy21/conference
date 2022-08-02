@@ -16,11 +16,10 @@ function Speaker2() {
                 <span>{props.Location}.</span>
                 <img className="w-[400px] h-[400px]"src={props.image}></img> */}
                 <div>
-                    <img className="float-left w-[350px] h-[300px] border-black"src={muthiah}></img>
+                    <img className="float-left w-[350px] object-cover h-[400px] border-black"src={muthiah}></img>
                     <div className="float-right mt-[100px] mr-[60px]">
                         <div className="font-semibold">Mr. Muthiah,</div>
-                        <div>Computation Engineer,</div>
-                        <div>(Automotive),</div>
+                        <div>Computation Engineer (Automotive),</div>
                         <div>Akka Technologies,</div>
                         <div>Germany.</div>
                     </div>
