@@ -24,7 +24,7 @@ const Committe = () => {
                <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Technical Committee Members</p>
-               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">International</p>
+               <p className="p-5 ml-[50px] mx-10 font-bold underline underline-offset-8 tracking-[1px]">International</p>
                <Technical Name="Dr. Tony Punnoose Valayil" Department="Bulgarian Academy of Sciences," Place="Bulgaria."></Technical>
                <Technical Name="Dr. Yoash Levron" Department="Technion Israel Institute of Technology," Place="Haifa, Israel."></Technical>
                <Technical Name="Dr. Rajkumar Palaniappan" Department="University of Technology Bahrain," Place="Bahrain."></Technical>
@@ -40,7 +40,7 @@ const Committe = () => {
                <Technical Name="Dr. Shilpa Mehta" Department="Auckland University of Technology," Place="Auckland, New Zealand."></Technical>
                <Technical Name="Dr.Pankaj Kumar" Department="University of New Mexico," Place="Mexico."></Technical>
 
-               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">National</p>
+               <p className="p-5 ml-[50px] mx-10 font-bold underline underline-offset-8 tracking-[1px]">National</p>
                <Technical Name="Dr.S.Vinod" Department="PSG College of Technology," Place="Coimbatore."></Technical>
                <Technical Name="Dr. K. Linga Durai" Department="Anna University Regional Campus," Place="Madurai."></Technical>
                <Technical Name="Dr. Santhakumar Mohan" Department="IIT Palakad," Place="Kerala."></Technical>
