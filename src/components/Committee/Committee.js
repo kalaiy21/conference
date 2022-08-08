@@ -4,7 +4,10 @@ import CommitteeContent from "./CommitteeContent";
 import CommitteeContent1 from "./CommitteeContent1";
 import Committemem from "./Co-or";
 import Common from "./Commondetails";
+import Technical from "./TechnicalMem";
 const Committe = () => {
+
+
 
     // const AdvisoryMembers = ['Dr. J. Janet, Principal'];
     // const Convener = ['Dr. M. Lydia, Professor & Head, Mechatronics Engineering'];
@@ -14,13 +17,63 @@ const Committe = () => {
     return (
         <div>
             <Heading />
-            <Title title="Organizing Committee"/>
+            <Title title="Committee Members"/>
             <div className="my-[3rem] px-[5rem]">
                <CommitteeContent1 Title = "Chief Patron" Name="Smt. S. Malarvizhi" Designation="Managing Trustee" Organisation="Sri Krishna Institutions" Location="Coimbatore" />
                <CommitteeContent1 Title = "Patron" Name="Dr. J. Janet" Designation="Principal" Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Convener" Name="Dr. M. Lydia" Designation="Professor & Head" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
                <CommitteeContent1 Title = "Co-ordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College Engineering and Technology" Location="Coimbatore" />
-               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Committee Members</p>
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Technical Committee Members</p>
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">International</p>
+               <Technical Name="Dr. Tony Punnoose Valayil" Department="Bulgarian Academy of Sciences," Place="Bulgaria."></Technical>
+               <Technical Name="Dr. Yoash Levron" Department="Technion Israel Institute of Technology," Place="Haifa, Israel."></Technical>
+               <Technical Name="Dr. Rajkumar Palaniappan" Department="University of Technology Bahrain," Place="Bahrain."></Technical>
+               <Technical Name="Dr. Xiao-Zhi Gao" Department="University of Eastern Finland," Place="Finland."></Technical>
+               <Technical Name="Dr. DileepKumar" Department="Nile university," Place="Nigeria."></Technical>
+               <Technical Name="Dr. Abdulnasir Hossen" Department="Sultan Qaboos University," Place="Sultanate of Oman."></Technical>
+               <Technical Name="Dr. Haider Ismael Shahadi" Department="University of Kerbala," Place="Iraq."></Technical>
+               <Technical Name="Dr. Selwyn Piramuthu" Department="University of Florida," Place="Gainesville."></Technical>
+               <Technical Name="Prof. Zahra Badiei" Department="Shiraz University," Place="Shiraz, Iran."></Technical>
+               <Technical Name="Dr. Satheeshkumar Veeramani" Department="School of Engineering Cardiff University," Place="Cardiff."></Technical>
+               <Technical Name="Dr. Sharath Kumar Jagnannathan" Department="Saint Peter's University," Place="Jersey City."></Technical>
+               <Technical Name="Dr. Francesco Zirilli(Rtd)" Department="Universita di Roma La Sapienza," Place="Italy."></Technical>
+               <Technical Name="Dr. Shilpa Mehta" Department="Auckland University of Technology," Place="Auckland, New Zealand."></Technical>
+               <Technical Name="Dr.Pankaj Kumar" Department="University of New Mexico," Place="Mexico."></Technical>
+
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">National</p>
+               <Technical Name="Dr.S.Vinod" Department="PSG College of Technology," Place="Coimbatore."></Technical>
+               <Technical Name="Dr. K. Linga Durai" Department="Anna University Regional Campus," Place="Madurai."></Technical>
+               <Technical Name="Dr. Santhakumar Mohan" Department="IIT Palakad," Place="Kerala."></Technical>
+               <Technical Name="Mr. Raghul Manogaran" Department="Mercedes Benz Research & Development, " Place="Bangalore."></Technical>
+               <Technical Name="Dr. Kathiravan Srinivasan" Department="Vellore Institute of Technology," Place="Vellore."></Technical>
+               <Technical Name="Dr. K. Baskaran" Department="Alagappa Chettiar Government College of Engineering and Technology," Place="Karaikudi."></Technical>
+               <Technical Name="Dr. N.A. Natraj" Department="Symbiosis International (Deemed University)," Place="Pune."></Technical>
+               <Technical Name="Dr. Akhilesh Kumar Singh" Department="Adithya College of Engineering and Technology," Place="Andhra Pradesh."></Technical>
+               <Technical Name="Dr. Ram Singh Sran" Department="Baba Hira Singh Bhattal Institute of Engineering & Technology," Place="Punjab."></Technical>
+               <Technical Name="Dr. R.Ramakrishnan" Department="Vellore Institute of Technology," Place="Vellore."></Technical>
+               <Technical Name="Dr. M.Ramu" Department="Amirta School of Engineering," Place="Coimbatore."></Technical>
+               <Technical Name="Dr. S. Suresh Kumar" Department="KGiSL Institute of Technology," Place="Coimbatore."></Technical>
+               <Technical Name="Dr. M.Venkatesan" Department="SASTRA Deemed to be University," Place="Thanjavur."></Technical>
+               <Technical Name="Dr. B V D S Sekhar" Department="S R K R Engineering College," Place="Buimavaram, Andhra Pradesh."></Technical>
+               <Technical Name="Dr. C. R. Rathish" Department="New horizon College of Engineering," Place="Bengaluru."></Technical>
+               <Technical Name="Dr. M. Ravichandran" Department="Chandigarh University," Place="Punjab."></Technical>
+               <Technical Name="Dr. K. Ramanathan" Department="Alagappa Chettiar Government College of Engineering and Technology," Place="Karaikudi."></Technical>
+               <Technical Name="Dr. VVSSS Chakravarthy" Department="Raghu Institute of Technology," Place="Visakhapatnam."></Technical>
+               <Technical Name="Dr. Pankaj Pathak" Department="Symbiosis International (Deemed University)," Place="Pune."></Technical>
+               <Technical Name="Dr. S. Karthigai Lakshmi" Department="SSM Institute of Engineering and Technology," Place="Dindigul."></Technical>
+               <Technical Name="Dr. M. Ravichandran" Department="K.Ramakrishnan College of Engineering," Place="Trichy."></Technical>
+               <Technical Name="Dr. M. Feroskhan" Department="Vellore Institute of Technology," Place="Chennai."></Technical>
+               <Technical Name="Dr. Saravana Mohan" Department="Kumaraguru College of Technology," Place="Coimbatore."></Technical>
+               <Technical Name="Dr. R. Rajasekar" Department="Kongu Engineering College," Place="Erode."></Technical>
+               <Technical Name="Dr. Kamatchi Sundari" Department="SRMIST-Ramapuram," Place="Chennai."></Technical>
+               <Technical Name="Dr. T.Mohanraj" Department="Amrita University," Place="Coimbatore."></Technical>
+               <Technical Name="Dr. K. B. Gurumoorthy" Department="National Institute of Technology," Place="Calicut."></Technical>
+
+
+
+
+
+               <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Organizing Committee Members</p>
                <Committemem Name="Dr. T. A. Selvan" Designation="Professor"></Committemem>
                <Committemem Name="Dr. D. Pritima" Designation="Professor"></Committemem>
                <Committemem Name="Dr. V. Narasimharaj" Designation="Associate Professor"></Committemem>

@@ -10,7 +10,7 @@ function Venue() {
   return (
     <div className="flex flex-col font-poppins">
       <Heading />
-      <Title title="Venue (Virtual Event)" />
+      <Title title="Venue (Online Event)" />
       
       <br></br>
       <div className="px-[6rem] mb-[3rem]">
