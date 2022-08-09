@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center justify-center mt-10 items text-[1.1rem]">
                 <MailIcon className="w-8 h-8 mr-2"/>
-                <a className="pb-1 text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a>
+                <a className="pb-1 text-sky-500" href="mailto:iciriac22@gmail.com">iciriac22@gmail.com</a>
             </div>
             
 

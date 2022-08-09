@@ -10,7 +10,7 @@ const Submission = () => {
           <div className="mt-[3rem] px-[5rem] leading-[2rem]">
              <p>
                 <b><span>Instructions to Authors</span></b>
-                <p>Authors are requested to send their manuscript (in .doc) to the Conference Email id: <a className="text-sky-500" href="mailto:iciriac@skcet.ac.in">iciriac@skcet.ac.in</a> or submit by clicking button below.</p>
+                <p>Authors are requested to send their manuscript (in .doc) to the Conference Email id: <a className="text-sky-500" href="mailto:iciriac22@gmail.com">iciriac22@gmail.com</a> or submit by clicking button below.</p>
              </p>
 
             <hr className="border-[1px] opacity-40 border-[#9e9e9e] my-[1.5rem]"></hr>
