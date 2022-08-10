@@ -28,7 +28,7 @@ function Heading() {
                     <p className="text-l font-medium tracking-[2px]">Department of Mechatronics Engineering</p>
                     <p className="text-[.7rem] font-medium tracking-[.5px]">in association with</p>
                     <p className="text-l font-medium tracking-[2px] mb-[.5rem]">Kyungpook National University, South Korea</p>
-                    <h1 className="text-[1.4rem] font-semibold w-[50rem] tracking-[1px] mb-[.5rem]">International Conference on Innovations in Robotics, Intelligent Automation and Control (ICIRIAC 2022)</h1>
+                    <h1 className="italic text-[1.4rem] font-semibold w-[50rem] tracking-[1px] mb-[.5rem]">International Conference on Innovations in Robotics, Intelligent Automation and Control (ICIRIAC 2022)</h1>
                     <p className="font-medium tracking-[2px] ">14<sup>th</sup> October 2022</p>
                 </div>
             </div>

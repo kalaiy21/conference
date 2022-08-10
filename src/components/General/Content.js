@@ -40,7 +40,7 @@ function Content(props){
             </div>
         );
     }
-    else if(tab === "Committee")
+    else if(tab === "Committees")
     {
         return(
             <div className={pagestyle}>
