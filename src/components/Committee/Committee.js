@@ -72,24 +72,24 @@ const Committe = () => {
 
 
                <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Organizing Committee Members</p>
-               <Committemem Name="Dr. T. A. Selvan Professor"></Committemem>
-               <Committemem Name="Dr. D. Pritima Professor"></Committemem>
-               <Committemem Name="Dr. V. Narasimharaj Associate Professor"></Committemem>
-               <Committemem Name="Dr. R. Gopinathan Associate Professor"></Committemem>
-               <Committemem Name="Dr. S. Balasubramani Assistant Professor"></Committemem>
-               <Committemem Name="Dr. R. Manikandan Assistant Professor"></Committemem>
-               <Committemem Name="Dr. G. Veerappan Assistant Professor"></Committemem>
-               <Committemem Name="Dr. L. Feroz Ali Assistant Professor"></Committemem>
-               <Committemem Name="Dr. N. Mithran Assistant Professor"></Committemem>
-               <Committemem Name="Dr. J. Justin Maria Hillary Assistant Professor"></Committemem>
-               <Committemem Name="Dr. J. Indirapriyadharshini Assistant Professor"></Committemem>
-               <Committemem Name="Ms. S. Kannaki Assistant Professor"></Committemem>
-               <Committemem Name="Ms. M. Bhuvaneswari Assistant Professor"></Committemem>
-               <Committemem Name="Ms. S. Nithya Priya Assistant Professor"></Committemem>
-               <Committemem Name="Mr. S. Panneerselvam Assistant Professor"></Committemem>
-               <Committemem Name="Ms. R. Priyadharshini Assistant Professor"></Committemem>
-               <Committemem Name="Mr. M. Vigneshwaran Assistant Professor"></Committemem>
-               <Committemem Name="Mr. T. Vignesh Assistant Professor"></Committemem>
+               <Committemem Name="Dr. T. A. Selvan, Professor."></Committemem>
+               <Committemem Name="Dr. D. Pritima, Professor."></Committemem>
+               <Committemem Name="Dr. V. Narasimharaj, Associate Professor."></Committemem>
+               <Committemem Name="Dr. R. Gopinathan, Associate Professor."></Committemem>
+               <Committemem Name="Dr. S. Balasubramani, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. R. Manikandan, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. G. Veerappan, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. L. Feroz Ali, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. N. Mithran, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. J. Justin Maria Hillary, Assistant Professor."></Committemem>
+               <Committemem Name="Dr. J. Indirapriyadharshini, Assistant Professor."></Committemem>
+               <Committemem Name="Ms. S. Kannaki Assistant, Professor."></Committemem>
+               <Committemem Name="Ms. M. Bhuvaneswari Assistant, Professor."></Committemem>
+               <Committemem Name="Ms. S. Nithya Priya Assistant, Professor."></Committemem>
+               <Committemem Name="Mr. S. Panneerselvam Assistant, Professor."></Committemem>
+               <Committemem Name="Ms. R. Priyadharshini Assistant, Professor."></Committemem>
+               <Committemem Name="Mr. M. Vigneshwaran Assistant, Professor."></Committemem>
+               <Committemem Name="Mr. T. Vignesh Assistant, Professor."></Committemem>
                <br></br>
                <Common></Common>
 
@@ -103,22 +103,3 @@ const Committe = () => {
 export default Committe;
 
 
-// Dr. T. A. Selvan, Professor
-// Dr. D. Pritima, Professor
-// Dr. V. Narasimharaj, Associate Professor
-// Dr. R. Gopinathan, Associate Professor
-// Dr. S. Balasubramani, Assistant Professor
-// Dr. R. Manikandan, Assistant Professor
-// Dr. G. Veerappan, Assistant Professor
-// Dr. L. Feroz Ali, Assistant Professor
-// Dr. N. Mithran, Assistant Professor
-// Dr. J. Justin Maria Hillary,	Assistant Professor
-// Ms. S. Kannaki, Assistant Professor
-// Ms. J. Indirapriyadharshini, Assistant Professor
-// Ms. M. Bhuvaneswari, Assistant Professor
-// Ms. S. Nithya Priya, Assistant Professor
-// Mr. S. Panneerselvam, Assistant Professor
-// Ms. R. Priyadharshini, Assistant Professor
-// Mr. P. M. Arunkumar, Assistant Professor
-// Mr. M. Vigneshwaran, Assistant Professor
-// Mr. T. Vignesh,	Assistant Professor
