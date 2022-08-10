@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conference/static/css/main.36d05afa.css",
-    "main.js": "/conference/static/js/main.bc4f3bb7.js",
+    "main.js": "/conference/static/js/main.82656893.js",
     "static/media/ICIRIAC 2022.pdf": "/conference/static/media/ICIRIAC 2022.efba9c70158a1246a837.pdf",
     "static/media/AIP.docx": "/conference/static/media/AIP.a6db4067fe61581c3f30.docx",
     "static/media/depttop.jpg": "/conference/static/media/depttop.ca4742cd0f78b3f9a153.jpg",
@@ -12,10 +12,10 @@
     "static/media/AIP proceedings.jpeg": "/conference/static/media/AIP proceedings.48f19b666c22ca4d0ba7.jpeg",
     "index.html": "/conference/index.html",
     "main.36d05afa.css.map": "/conference/static/css/main.36d05afa.css.map",
-    "main.bc4f3bb7.js.map": "/conference/static/js/main.bc4f3bb7.js.map"
+    "main.82656893.js.map": "/conference/static/js/main.82656893.js.map"
   },
   "entrypoints": [
     "static/css/main.36d05afa.css",
-    "static/js/main.bc4f3bb7.js"
+    "static/js/main.82656893.js"
   ]
 }
