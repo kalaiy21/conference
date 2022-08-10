@@ -83,13 +83,13 @@ const Committe = () => {
                <Committemem Name="Dr. N. Mithran, Assistant Professor."></Committemem>
                <Committemem Name="Dr. J. Justin Maria Hillary, Assistant Professor."></Committemem>
                <Committemem Name="Dr. J. Indirapriyadharshini, Assistant Professor."></Committemem>
-               <Committemem Name="Ms. S. Kannaki Assistant, Professor."></Committemem>
-               <Committemem Name="Ms. M. Bhuvaneswari Assistant, Professor."></Committemem>
-               <Committemem Name="Ms. S. Nithya Priya Assistant, Professor."></Committemem>
-               <Committemem Name="Mr. S. Panneerselvam Assistant, Professor."></Committemem>
-               <Committemem Name="Ms. R. Priyadharshini Assistant, Professor."></Committemem>
-               <Committemem Name="Mr. M. Vigneshwaran Assistant, Professor."></Committemem>
-               <Committemem Name="Mr. T. Vignesh Assistant, Professor."></Committemem>
+               <Committemem Name="Ms. S. Kannaki, Assistant Professor."></Committemem>
+               <Committemem Name="Ms. M. Bhuvaneswari, Assistant Professor."></Committemem>
+               <Committemem Name="Ms. S. Nithya Priya, Assistant Professor."></Committemem>
+               <Committemem Name="Mr. S. Panneerselvam, Assistant Professor."></Committemem>
+               <Committemem Name="Ms. R. Priyadharshini, Assistant Professor."></Committemem>
+               <Committemem Name="Mr. M. Vigneshwaran, Assistant Professor."></Committemem>
+               <Committemem Name="Mr. T. Vignesh, Assistant Professor."></Committemem>
                <br></br>
                <Common></Common>
 
