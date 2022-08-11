@@ -1,4 +1,8 @@
 import React from "react";
+import skcetLogo from '../../Resources/skcetLogo.png';
+import skcetLogo2 from '../../Resources/clg_logo2.png';
+import uniLogo from '../../Resources/uni_logo.png';
+
 
 // function Heading() {
 //     return(
@@ -16,18 +20,31 @@ import React from "react";
 // }
 
 function Heading() {
-    return(
+    return (
         <div className="flex flex-col bg-skcet w-full text-center justify-center items-center bg-no-repeat bg-cover py-[3rem] mb-[3rem] font-Roboto font-medium">
             <div>
-                <div className="bg-[#d19620]/[.55] text-white pt-[1rem] pb-[.25rem] rounded-t-xl">
-                    <h1 className="text-xl font-semibold tracking-[2px]">Sri Krishna College of Engineering and Technology</h1>
-                    <p className="text-[.65rem] font-medium tracking-[.5px]">An Autonomous Institution, Accredited by NAAC with 'A' Grade</p>
-                    <p className="text-[.65rem] font-medium tracking-[.5px]"> Coimbatore, Tamilnadu, India</p>
+                <div className="bg-[#d19620]/[.55] flex justify-evenly text-white pt-[1rem] pb-[.25rem] rounded-t-xl">
+                    <div>
+                        <img className="h-10 w-15" src={skcetLogo} alt="logo" />
+                    </div>
+                    <div>
+                        <h1 className="text-xl font-semibold uppercase tracking-[2px]">Sri Krishna College of Engineering and Technology</h1>
+                        <p className="text-[.65rem] font-medium tracking-[.5px]">An Autonomous Institution, Accredited by NAAC with 'A' Grade</p>
+                        <p className="text-[.65rem] font-medium tracking-[.5px]"> Coimbatore, Tamilnadu, India</p>
+                    </div>
+                    <div>
+                        <img className="h-[3rem] w-[3rem]" src={skcetLogo2} alt="logo" />
+                    </div>
                 </div>
-                <div className="bg-[#4b92cc]/[.55] text-white pb-[1rem] pt-[.25rem] rounded-b-xl">
+                <div className="bg-[#4b92cc]/[.55] flex flex-col items-center text-white pb-[1rem] pt-[.25rem] rounded-b-xl">
                     <p className="text-l font-medium tracking-[2px]">Department of Mechatronics Engineering</p>
                     <p className="text-[.7rem] font-medium tracking-[.5px]">in association with</p>
-                    <p className="text-l font-medium tracking-[2px] mb-[.5rem]">Kyungpook National University, South Korea</p>
+                    <div className="flex items-center">
+                        <p className="text-l font-medium tracking-[2px] uppercase mb-[.5rem]">Kyungpook National University, <span className="lowercase">South Korea</span> </p>
+                        <div>
+                            <img className="h-[3rem] ml-[0] w-[3rem]" src={uniLogo} alt="logo" />
+                        </div>
+                    </div>
                     <h1 className="italic text-[1.4rem] font-semibold w-[50rem] tracking-[1px] mb-[.5rem]">International Conference on Innovations in Robotics, Intelligent Automation and Control (ICIRIAC 2022)</h1>
                     <p className="font-medium tracking-[2px] ">14<sup>th</sup> October 2022</p>
                 </div>

@@ -32,7 +32,7 @@ function Content(props){
             </div>
         );
     }
-    else if(tab === "Call for Paper")
+    else if(tab === "Call for Papers")
     {
         return(
             <div className={pagestyle}>
