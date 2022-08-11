@@ -40,7 +40,7 @@ function Heading() {
                     <p className="text-l font-medium tracking-[2px]">Department of Mechatronics Engineering</p>
                     <p className="text-[.7rem] font-medium tracking-[.5px]">in association with</p>
                     <div className="flex items-center">
-                        <p className="text-l font-medium tracking-[2px] uppercase mb-[.5rem]">Kyungpook National University, <span className="lowercase">South Korea</span> </p>
+                        <p className="text-l font-medium tracking-[2px] uppercase mb-[.5rem]">Kyungpook National University, <span className="capitalize">South Korea</span> </p>
                         <div>
                             <img className="h-[3rem] ml-[0] w-[3rem]" src={uniLogo} alt="logo" />
                         </div>

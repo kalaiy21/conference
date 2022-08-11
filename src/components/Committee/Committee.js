@@ -46,7 +46,7 @@ const Committe = () => {
                <Technical Name="Dr. Santhakumar Mohan, IIT Palakad, Kerala."></Technical>
                <Technical Name="Mr. Raghul Manogaran, Mercedes Benz Research & Development, Bangalore."></Technical>
                <Technical Name="Dr. Kathiravan Srinivasan, Vellore Institute of Technology, Vellore."></Technical>
-               <Technical Name="Dr. K. Baskaran, Alagappa Chettiar Government College of Engineering and Technology, Karaikudi."></Technical>
+               <Technical Name="Dr. K. Baskaran, ACGCET, Karaikudi."></Technical>
                <Technical Name="Dr. N.A. Natraj, Symbiosis International (Deemed University), Pune."></Technical>
                <Technical Name="Dr. Akhilesh Kumar Singh, Adithya College of Engineering and Technology, Andhra Pradesh."></Technical>
                <Technical Name="Dr. Ram Singh Sran, Baba Hira Singh Bhattal Institute of Engineering & Technology, Punjab."></Technical>
@@ -57,7 +57,7 @@ const Committe = () => {
                <Technical Name="Dr. B V D S Sekhar, S R K R Engineering College, Buimavaram, Andhra Pradesh."></Technical>
                <Technical Name="Dr. C. R. Rathish, New horizon College of Engineering, Bengaluru."></Technical>
                <Technical Name="Dr. M. Ravichandran, Chandigarh University, Punjab."></Technical>
-               <Technical Name="Dr. K. Ramanathan, Alagappa Chettiar Government College of Engineering and Technology, Karaikudi."></Technical>
+               <Technical Name="Dr. K. Ramanathan, ACGCET, Karaikudi."></Technical>
                <Technical Name="Dr. VVSSS Chakravarthy, Raghu Institute of Technology, Visakhapatnam."></Technical>
                <Technical Name="Dr. Pankaj Pathak, Symbiosis International (Deemed University), Pune."></Technical>
                <Technical Name="Dr. S. Karthigai Lakshmi, SSM Institute of Engineering and Technology, Dindigul."></Technical>
