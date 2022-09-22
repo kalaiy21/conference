@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.876dc565.css",
-    "main.js": "/static/js/main.51bec0be.js",
+    "main.css": "/static/css/main.4a04c23d.css",
+    "main.js": "/static/js/main.af9f86a9.js",
     "static/media/ICIRIAC 2022.pdf": "/static/media/ICIRIAC 2022.efba9c70158a1246a837.pdf",
     "static/media/AIP.docx": "/static/media/AIP.a6db4067fe61581c3f30.docx",
     "static/media/depttop.jpg": "/static/media/depttop.ca4742cd0f78b3f9a153.jpg",
@@ -14,11 +14,11 @@
     "static/media/Anand_paul.jpeg": "/static/media/Anand_paul.3eda3f35c42f2cec3939.jpeg",
     "static/media/AIP proceedings.jpeg": "/static/media/AIP proceedings.48f19b666c22ca4d0ba7.jpeg",
     "index.html": "/index.html",
-    "main.876dc565.css.map": "/static/css/main.876dc565.css.map",
-    "main.51bec0be.js.map": "/static/js/main.51bec0be.js.map"
+    "main.4a04c23d.css.map": "/static/css/main.4a04c23d.css.map",
+    "main.af9f86a9.js.map": "/static/js/main.af9f86a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.876dc565.css",
-    "static/js/main.51bec0be.js"
+    "static/css/main.4a04c23d.css",
+    "static/js/main.af9f86a9.js"
   ]
 }
