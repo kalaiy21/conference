@@ -25,6 +25,7 @@ const Committe = () => {
                <CommitteeContent1 Title = "Coordinators" Name="Ms. K. Ananthi" Name1="Mr. S. Madhan Kumar," Designation="Assistant Professors" Dept = "Department of Mechatronics Engineering," Organisation="Sri Krishna College of Engineering and Technology" Location="Coimbatore" />
                <p className="p-5 mx-10 font-bold underline underline-offset-8 tracking-[1px]">Technical Committee Members</p>
                <p className="p-5 ml-[50px] mx-10 font-bold underline underline-offset-8 tracking-[1px]">International</p>
+               <Technical Name="Mr. Binesh Kumar, Technical Project Lead, Atom Power Inc., Charlotte, USA."></Technical>
                <Technical Name="Dr. Tony Punnoose Valayil, Bulgarian Academy of Sciences, Bulgaria."></Technical>
                <Technical Name="Dr. Yoash Levron ,Technion Israel Institute of Technology, Haifa, Israel."></Technical>
                <Technical Name="Dr. Rajkumar Palaniappan, University of Technology Bahrain, Bahrain."></Technical>
